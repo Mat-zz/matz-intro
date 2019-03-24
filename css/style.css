@@ -244,6 +244,10 @@ ul, li {
   height: 245px;
 }
 
+#works .card-caption {
+  text-align: center;
+}
+
 #works .card-caption-title {
   font-size: 13px;
   font-weight: bold;
@@ -412,7 +416,7 @@ ul, li {
 }
 
 #contact .contact-list li img {
-  width: 60px;
+  width: 30px;
   margin: 0 auto 5px;
 }
 
