@@ -241,6 +241,7 @@ ul, li {
 #works .card-image {
   display: block;
   margin-bottom: 8px;
+  height: 245px;
 }
 
 #works .card-caption-title {
