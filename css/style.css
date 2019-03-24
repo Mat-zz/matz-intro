@@ -76,7 +76,7 @@ ul, li {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  height: 380px;
+  height: 480px;
   background-size: auto 100%;
   background: url(../img/header/IMG_5046.JPG) center center;
   }
@@ -108,9 +108,9 @@ ul, li {
 
 #header .logo-desc {
   display: block;
-  font-size: 16px;
+  font-size: 36px;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 /*--------------------------------
