@@ -240,6 +240,7 @@ ul, li {
 
 #works .card-image {
   display: block;
+  border: 3px solid black;
   margin-bottom: 8px;
   height: 245px;
 }
