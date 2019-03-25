@@ -415,9 +415,9 @@ ul, li {
 }
 
 #contact .contact-list li img {
-  width: 60px;
-  margin: 0 auto 5px;
-  border-radius:50%;
+  width: 40%;
+  max-width: 40%
+  height: auto
 }
 
 #contact .contact-list-desc {
