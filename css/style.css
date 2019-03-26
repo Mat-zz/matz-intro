@@ -93,7 +93,7 @@ ul, li {
   top: -8px;
   left: -60px;
   font-size: 36px;
-  color: #f9f9f9;
+  color: #000000;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -361,7 +361,7 @@ ul, li {
 }
 
 #skill .rate:after {
-  color: #e8629f;
+  color: #000000;
   overflow: hidden;
   white-space: nowrap;
 }
