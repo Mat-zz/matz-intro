@@ -78,7 +78,7 @@ ul, li {
   align-items: center;
   height: 480px;
   background-size: auto 100%;
-  background: url(../img/header/IMG_5046.JPG) center center;
+  background-color: #000000 center center;
   }
 
 #header .logo {
@@ -93,7 +93,7 @@ ul, li {
   top: -8px;
   left: -60px;
   font-size: 36px;
-  color: #d59fea;
+  color: #f9f9f9;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -101,7 +101,7 @@ ul, li {
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
   font-size: 94px;
-  color: #f39ac7;
+  color: #f9f9f9;
   line-height: 1;
   letter-spacing: -2px;
 }
@@ -111,6 +111,7 @@ ul, li {
   font-size: 36px;
   text-align: center;
   margin-top: 20px;
+  color: #f9f9f9;
 }
 
 /*--------------------------------
@@ -181,7 +182,7 @@ ul, li {
   font-size: 56px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #f39ac7;
+  color: #080000;
 }
 
 .section .section-desc {
