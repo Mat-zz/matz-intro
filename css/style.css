@@ -59,7 +59,7 @@ ul, li {
 }
 
 #contents {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 /*--------------------------------
@@ -78,8 +78,8 @@ ul, li {
   align-items: center;
   height: 480px;
   background-size: auto 100%;
-  background-color: #000000;
-  }
+  background: url(../img/header/rustic-3441673_1920.jpg) center center;
+}
 
 #header .logo {
   display: block;
@@ -93,7 +93,7 @@ ul, li {
   top: -8px;
   left: -60px;
   font-size: 36px;
-  color: #000000;
+  color: #d59fea;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -101,7 +101,7 @@ ul, li {
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
   font-size: 94px;
-  color: #f9f9f9;
+  color: #fff;
   line-height: 1;
   letter-spacing: -2px;
 }
@@ -110,8 +110,8 @@ ul, li {
   display: block;
   font-size: 36px;
   text-align: center;
-  margin-top: 20px;
-  color: #f9f9f9;
+  margin-top: 30px;
+  color: #fff;
 }
 
 /*--------------------------------
@@ -148,6 +148,7 @@ ul, li {
 #gnav li a {
   color: #333;
   letter-spacing: -0.01em;
+  margin-left: 12px;
 }
 
 #gnav.fixed {
@@ -167,7 +168,8 @@ ul, li {
 ---------------------------------*/
 
 .section .inner {
-  padding: 80px 10px;
+  /* padding: 80px 10px; */
+  padding: 80px 10px 10px 0px;
 }
 
 .section .section-title-block {
@@ -182,7 +184,7 @@ ul, li {
   font-size: 56px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #080000;
+  color: #444;
 }
 
 .section .section-desc {
@@ -241,7 +243,6 @@ ul, li {
 
 #works .card-image {
   display: block;
-  border: 3px solid black;
   margin-bottom: 8px;
   height: 245px;
 }
@@ -251,7 +252,7 @@ ul, li {
 }
 
 #works .card-caption-title {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -332,10 +333,18 @@ ul, li {
 
 #skill .skill-desc {
   flex-basis: calc(100% - 75px - 30px);
+  text-align: center;
 }
 
 #skill .skill-desc-title {
   margin-bottom: 3px;
+  font-size:26px;
+  padding: 24px;
+  font-weight: bold;
+}
+
+#skill .skill-desc-title i{
+  margin-right: 12px;
 }
 
 #skill .rate {
@@ -361,7 +370,7 @@ ul, li {
 }
 
 #skill .rate:after {
-  color: #000000;
+  color: #808080;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -406,23 +415,21 @@ ul, li {
   -ms-flex-pack: justify;
   justify-content: space-between;
   align-self: flex-end;
+  ;
 }
+
 #contact .contact-list li {
-  width: 20%;
-  max-width: 20%;
   text-align: center;
 }
 
 #contact .contact-list li a {
-  width: 20%;
-  max-width: 20%;
   color: #333;
 }
 
 #contact .contact-list li img {
-  width: 20%;
-  max-width: 20%;
-  height: auto;
+  width: 60px;
+  margin: 0 auto 5px;
+  border-radius:50%;
 }
 
 #contact .contact-list-desc {
@@ -590,7 +597,7 @@ ul, li {
     flex-basis: 30%;
   }
   #contact .contact-list li img {
-    width: 30%;
+    width: 30px;
   }
   #contact .contact-list-desc {
     font-size: 12px;
@@ -603,3 +610,43 @@ ul, li {
     padding: 0 10px;
     margin-bottom: 5px;
   }
+
+ .profile img {
+  /* border-radius: 50%; 
+  border: 4px solid GREEN; */
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover; /* ADD */
+ }
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.contact-img{
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover; /* ADD */
+}
+
+.section-title-css{
+  margin-left: 12px;
+}
+
+.table{
+  text-align: center;
+}
+
+@media only screen and (max-width: 540px) {
+  #gnav li {
+    font-size: 8px;
+  }
+}
